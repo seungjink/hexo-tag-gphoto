@@ -1,6 +1,6 @@
 # hexo-tag-gphoto
 
-This is a tag plugin for [hexo](https://github.com/tommy351/hexo).
+This is a tag plugin for [hexo](https://hexo.io/).
 It allows you to embed images on your Google Photos account using sharable link.
 
 ## Installation
