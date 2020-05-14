@@ -42,7 +42,7 @@ will be converted into:
 ## IMPORTANT
 
 JSONImageAttribute must be enclosed with single quotes.
-Each key value is enclosed by double quotes.
+Each key is enclosed by double quotes.
 
 ## Known Issues
 
