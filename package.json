@@ -1,0 +1,30 @@
+{
+  "name": "@seungjink/hexo-tag-gphoto",
+  "version": "1.0.0",
+  "description": "Tag plugin for Hexo. This plugin converts the sharable link of a google photo into <img> tag for html file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "got": "^9.6.0",
+    "hexo-fs": "^1.0.2",
+    "hexo-util": "^0.6.3",
+    "metascraper": "^5.3.4",
+    "metascraper-image": "^5.3.4",
+    "metascraper-url": "^5.3.4"
+  },
+  "author": "Seungjin Kang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seungjink/hexo-tag-gphoto.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/seungjink/hexo-tag-gphoto/issues"
+  },
+  "homepage": "https://github.com/seungjink/hexo-tag-gphoto#readme"
+}
