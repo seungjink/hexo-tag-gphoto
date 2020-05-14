@@ -26,17 +26,17 @@ npm install seungjink/hexo-tag-gphoto --save
 ## Example
 
 ```
-{% gphoto https://photos.app.goo.gl/z4J8xmkFAqxssc2BA %}
+{% gphoto https://photos.app.goo.gl/wXN1WtXqpSu4EWpdA %}
 
-{% gphoto https://photos.app.goo.gl/z4J8xmkFAqxssc2BA '{"width":500,"height":400}' %}
+{% gphoto https://photos.app.goo.gl/wXN1WtXqpSu4EWpdA '{"width":500,"height":400}' %}
 ```
 
 will be converted into:
 
 ```
-<img src="https://lh3.googleusercontent.com/JBVnNcGX5ZpSWnX6OlBOcQUrvZKECSewKH-dMnf3ajpaYDHxWVOQYTy5rbyjwOyyvXB3xYV7IKNJfjH3yGupI0crVpd2CHnWlzCPVkQVbqPpBku40IWImksJ3XvaOaCM8zNH-nUb=w10000">
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=w10000">
 
-<img src="https://lh3.googleusercontent.com/JBVnNcGX5ZpSWnX6OlBOcQUrvZKECSewKH-dMnf3ajpaYDHxWVOQYTy5rbyjwOyyvXB3xYV7IKNJfjH3yGupI0crVpd2CHnWlzCPVkQVbqPpBku40IWImksJ3XvaOaCM8zNH-nUb=w500-h400-p-k">
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=w500-h400-p-k">
 ```
 
 ## IMPORTANT
