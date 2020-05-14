@@ -39,7 +39,7 @@ will be converted into:
 <img src="https://lh3.googleusercontent.com/JBVnNcGX5ZpSWnX6OlBOcQUrvZKECSewKH-dMnf3ajpaYDHxWVOQYTy5rbyjwOyyvXB3xYV7IKNJfjH3yGupI0crVpd2CHnWlzCPVkQVbqPpBku40IWImksJ3XvaOaCM8zNH-nUb=w500-h400-p-k">
 ```
 
-__IMPORTANT__
+## IMPORTANT
 
 JSONImageAttribute must be enclosed with single quotes.
 Each key value is enclosed by double quotes.
