@@ -13,11 +13,11 @@ npm install seungjink/hexo-tag-gphoto --save
 ## Usage
 
 1. Upload your photo on Google Photos.
-2. Copy the link starting with photos.app.google.com/...
+2. Click the share button and generate the link starting with photos.app.google.com/...
 
 ![example](/example.png)
 
-3. Write following tag on your markdown file.
+3. Paste the link on your markdown file as follows.
 
 ```
 {% gphoto imageURL '{JSONImageAttibutes}' %}
