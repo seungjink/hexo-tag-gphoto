@@ -28,7 +28,7 @@ npm install seungjink/hexo-tag-gphoto --save
 ```
 {% gphoto https://photos.app.goo.gl/z4J8xmkFAqxssc2BA %}
 
-{% gphoto https://photos.app.goo.gl/z4J8xmkFAqxssc2BA '{"width":500,"height":400}'%}
+{% gphoto https://photos.app.goo.gl/z4J8xmkFAqxssc2BA '{"width":500,"height":400}' %}
 ```
 
 will be converted into:
