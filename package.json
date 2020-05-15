@@ -1,6 +1,6 @@
 {
   "name": "@seungjink/hexo-tag-gphoto",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tag plugin for Hexo. This plugin converts the sharable link of a google photo into <img> tag for html file.",
   "main": "index.js",
   "scripts": {
