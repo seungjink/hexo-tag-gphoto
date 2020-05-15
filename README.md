@@ -34,9 +34,9 @@ npm install seungjink/hexo-tag-gphoto --save
 will be converted into:
 
 ```
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=w10000">
+<img src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=d?-.jpg">
 
-<img src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=w500-h400-p-k">
+<img width=500 height=400 src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=d?-.jpg">
 ```
 
 ## IMPORTANT
@@ -46,6 +46,5 @@ Each key is enclosed by double quotes.
 
 ## Known Issues
 
-* Fancybox seems not working.
-* lightgallery is compatible with this version.
+* Fancybox and lightgallery is compatibe with this plugin.
 

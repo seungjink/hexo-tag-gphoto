@@ -9,25 +9,10 @@ async function getUrl(glink, attr){
   const targetUrl = glink;
   const { body: html, url } = await got(targetUrl);
   const metadata = await metascraper({ html, url });
-
   var imgpath = metadata.image.split("=")[0];
-  if (("width" in attr) && ("height" in attr)){
-    var suffix = "=w" + attr.width + "-" + "h" + attr.height+ "-p-k" 
-    imgpath = imgpath + suffix;
-  }
-  else if("width" in attr){
-    var suffix = "=w" + attr.width
-    imgpath = imgpath + suffix;
-  } 
-  else if("height" in attr){
-    var suffix = "=h" + attr.height
-    imgpath = imgpath + suffix;
-  } 
-  else{
-    imgpath = imgpath + "=w10000"
-  }
-
-  attr["alt"] = " "
+  // Google seems to return proper file regardless of extension type
+  // providing an image extension is needed for fancybox to work.
+  imgpath = imgpath + "=d?-.jpg"
   attr["src"] = imgpath;
   var res = util.htmlTag("img", attr)
   return await res;
