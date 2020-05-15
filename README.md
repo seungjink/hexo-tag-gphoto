@@ -46,5 +46,5 @@ Each key is enclosed by double quotes.
 
 ## Known Issues
 
-* Fancybox and lightgallery is compatibe with this plugin.
+Fancybox and lightgallery is compatibe with this plugin.
 
