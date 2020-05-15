@@ -7,7 +7,7 @@ It allows you to embed images on your Google Photos account using sharable link.
 
 ```
 cd <path-to-your-hexo-directory>
-npm install seungjink/hexo-tag-gphoto --save
+npm install seungjink/hexo-tag-gphoto
 ```
 
 ## Usage
