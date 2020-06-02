@@ -29,6 +29,8 @@ npm install seungjink/hexo-tag-gphoto
 {% gphoto https://photos.app.goo.gl/wXN1WtXqpSu4EWpdA %}
 
 {% gphoto https://photos.app.goo.gl/wXN1WtXqpSu4EWpdA '{"width":500,"height":400}' %}
+
+{% gphoto https://photos.app.goo.gl/wXN1WtXqpSu4EWpdA '{"style":"width:30%;margin:auto"}' %}
 ```
 
 will be converted into:
@@ -37,6 +39,8 @@ will be converted into:
 <img src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=d?-.jpg">
 
 <img width=500 height=400 src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=d?-.jpg">
+
+<img style="width:30%;margin:auto;" src="https://lh3.googleusercontent.com/pw/ACtC-3e8E_qpAKPL6kEwe4oCiO0IfSApZpt55-kH9jPDqctZf0qFK5N71LORbVyn85fMS49VQs639Cwe9VMDURMIoJVkSt_a9UMlBpIIrVFMfFqNitdj_OwR8JiIXkja-XpHNXGexur-mMv_fvz2Sbq3neg=d?-.jpg">
 ```
 
 ## IMPORTANT
